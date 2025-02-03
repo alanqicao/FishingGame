@@ -1,0 +1,700 @@
+{
+    "currentBoat": {
+        "armLocation": {
+            "x": 380,
+            "y": 500
+        },
+        "boatX": 100,
+        "boatY": 185,
+        "imagePath": "://image/boat.png",
+        "name": "Boat1"
+    },
+    "currentFishes": [
+    ],
+    "currentLure": {
+        "density": 0.800000011920929,
+        "description": "Dense and streamlined, slightly sticky when bouncing off obstacles.",
+        "friction": 0.5,
+        "imagePath": "://image/Crankbait.png",
+        "lureDepth": 1,
+        "name": "Crankbait",
+        "posX": 380,
+        "posY": 500,
+        "restitution": 0.20000000298023224
+    },
+
+"fishes": [
+    {
+        "description": "Bass are aggressive freshwater fish with a strong build and large mouths, making them efficient predators. They thrive in warm lakes and rivers with abundant vegetation, feeding on smaller fish, insects, and amphibians. Known for their strength and fighting spirit, they are a popular target for anglers.",
+        "fishFacts": [
+            "Bass are often called 'bucketmouths' due to their large mouths, which seem to be able to swallow just about anything.",
+            "Bass can jump out of the water during a fight, as if to show off to the angler.",
+            "They are surprisingly social, often schooling with others of similar size."
+        ],
+        "imagePath": "://image/Bass.png",
+        "lureToWeight": [
+            {
+                "LureName": "Blade_Bait",
+                "weight": 3
+            },
+            {
+                "LureName": "Chatterbait",
+                "weight": 10
+            },
+            {
+                "LureName": "Crankbait",
+                "weight": 16
+            },
+            {
+                "LureName": "Fly",
+                "weight": 8
+            },
+            {
+                "LureName": "Inline_Spinner",
+                "weight": 7
+            },
+            {
+                "LureName": "Jig",
+                "weight": 2
+            },
+            {
+                "LureName": "Soft_Plastic_Bait",
+                "weight": 17
+            },
+            {
+                "LureName": "Spinnerbait",
+                "weight": 5
+            },
+            {
+                "LureName": "Spoon",
+                "weight": 2
+            },
+            {
+                "LureName": "Swimbait",
+                "weight": 5
+            },
+            {
+                "LureName": "Topwaters",
+                "weight": 11
+            }
+        ],
+        "name": "Bass",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "A nocturnal predator with large, reflective eyes that help them see in low light, making them a top predator at dawn and dusk. Walleyes have olive and gold coloring with a distinctive white tip on their tail fin.",
+        "fishFacts": [
+            "Walleye eyes reflect light, giving them a 'glowing' appearance, perfect for spooky underwater selfies.",
+            "They are not very picky eaters, often eating whatever swims too close—like the trash pandas of the underwater world.",
+            "Walleye can be so lazy during the day that they prefer hiding in shadows like underwater vampires."
+        ],
+        "imagePath": "://image/Walleye.png",
+        "lureToWeight": [
+            {
+                "LureName": "Blade_Bait",
+                "weight": 16
+            },
+            {
+                "LureName": "Crankbait",
+                "weight": 10
+            },
+            {
+                "LureName": "Inline_Spinner",
+                "weight": 2
+            },
+            {
+                "LureName": "Jig",
+                "weight": 10
+            },
+            {
+                "LureName": "Spoon",
+                "weight": 20
+            },
+            {
+                "LureName": "Swimbait",
+                "weight": 4
+            }
+        ],
+        "name": "Walleye",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 2
+    },
+    {
+        "description": "Trout are cold-water fish found in clear streams, rivers, and lakes. They are characterized by streamlined bodies and speckled patterns. As omnivores, they feed on aquatic insects, crustaceans, and small fish. Their ability to adapt to different environments makes them a highly sought-after game fish.",
+        "fishFacts": [
+            "Trout are known for their rainbow-like colors, which makes them the 'divas' of the freshwater world.",
+            "They love insects so much that some have been seen leaping entirely out of the water to catch a flying bug.",
+            "Trout are great at camouflage, often making anglers wonder if they're just seeing a trick of light."
+        ],
+        "imagePath": "://image/Trout.png",
+        "lureToWeight": [
+            {
+                "LureName": "Crankbait",
+                "weight": 9
+            },
+            {
+                "LureName": "Fly",
+                "weight": 3
+            },
+            {
+                "LureName": "Inline_Spinner",
+                "weight": 19
+            },
+            {
+                "LureName": "Jig",
+                "weight": 20
+            },
+            {
+                "LureName": "Soft_Plastic_Bait",
+                "weight": 2
+            },
+            {
+                "LureName": "Swimbait",
+                "weight": 5
+            }
+        ],
+        "name": "Trout",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "A long, torpedo-shaped fish with sharp teeth and a voracious appetite. Found in cooler freshwater habitats, Northern Pike are ambush predators known for their aggressive strikes.",
+        "fishFacts": [
+            "Northern Pike are like the ninjas of the water, hiding among the plants until an unsuspecting snack swims by.",
+            "They are so aggressive that they'll sometimes attack things just to assert dominance, even if it's not edible.",
+            "Pike can grow over 4 feet long, making them the 'dragons' of freshwater habitats."
+        ],
+        "imagePath": "://image/NorthernPike.png",
+        "lureToWeight": [
+            {
+                "LureName": "Blade_Bait",
+                "weight": 9
+            },
+            {
+                "LureName": "Chatterbait",
+                "weight": 10
+            },
+            {
+                "LureName": "Crankbait",
+                "weight": 16
+            },
+            {
+                "LureName": "Fly",
+                "weight": 9
+            },
+            {
+                "LureName": "Inline_Spinner",
+                "weight": 10
+            },
+            {
+                "LureName": "Spinnerbait",
+                "weight": 3
+            },
+            {
+                "LureName": "Spoon",
+                "weight": 9
+            },
+            {
+                "LureName": "Swimbait",
+                "weight": 2
+            },
+            {
+                "LureName": "Topwaters",
+                "weight": 20
+            }
+        ],
+        "name": "NorthernPike",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "A deepwater predator with a long, sleek body and pale, worm-like patterns. Found in cold, deep lakes, they are slow-growing and can live for decades.",
+        "fishFacts": [
+            "Muskies are known as the 'fish of 10,000 casts' because they can be incredibly elusive.",
+            "They often lurk beneath docks, ready to ambush prey, giving anglers quite the surprise.",
+            "Muskies are solitary hunters and will sometimes follow lures all the way to the boat before deciding whether or not to bite."
+        ],
+        "imagePath": "://image/Muskie.png",
+        "lureToWeight": [
+            {
+                "LureName": "Blade_Bait",
+                "weight": 12
+            },
+            {
+                "LureName": "Chatterbait",
+                "weight": 20
+            },
+            {
+                "LureName": "Crankbait",
+                "weight": 10
+            },
+            {
+                "LureName": "Fly",
+                "weight": 20
+            },
+            {
+                "LureName": "Inline_Spinner",
+                "weight": 12
+            },
+            {
+                "LureName": "Spinnerbait",
+                "weight": 10
+            },
+            {
+                "LureName": "Spoon",
+                "weight": 18
+            },
+            {
+                "LureName": "Swimbait",
+                "weight": 2
+            },
+            {
+                "LureName": "Topwaters",
+                "weight": 5
+            }
+        ],
+        "name": "Muskie",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "Crappie are small, schooling freshwater fish known for their flat, oval-shaped bodies and speckled appearance. They prefer calm waters with abundant cover, feeding on insects and small fish. Their mild, flaky meat makes them a favorite for panfishing.",
+        "fishFacts": [
+            "Crappies are the 'social butterflies' of the water, preferring to school together in large groups.",
+            "They are known for their distinctive speckled coloring, which acts as great camouflage.",
+            "Crappies feed most actively at dawn and dusk, making them the early birds and night owls of freshwater."
+        ],
+        "imagePath": "://image/Crappie.png",
+        "lureToWeight": [
+            {
+                "LureName": "Blade_Bait",
+                "weight": 10
+            },
+            {
+                "LureName": "Crankbait",
+                "weight": 8
+            },
+            {
+                "LureName": "Fly",
+                "weight": 6
+            },
+            {
+                "LureName": "Inline_Spinner",
+                "weight": 2
+            },
+            {
+                "LureName": "Jig",
+                "weight": 13
+            },
+            {
+                "LureName": "Soft_Plastic_Bait",
+                "weight": 18
+            },
+            {
+                "LureName": "Swimbait",
+                "weight": 17
+            }
+        ],
+        "name": "Crappie",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "Yellow and olive-green with dark vertical stripes, Yellow Perch are schooling fish that thrive in both lakes and rivers. They are known for their mild, sweet-tasting flesh.",
+        "fishFacts": [
+            "Yellow Perch often school together so tightly that it's like they're having a family reunion.",
+            "They are notorious for nibbling lightly, as if they are just taste-testing before committing to a meal.",
+            "Yellow Perch are active year-round, including during ice fishing, making them a winter favorite."
+        ],
+        "imagePath": "://image/YellowPerch.png",
+        "lureToWeight": [
+            {
+                "LureName": "Blade_Bait",
+                "weight": 4
+            },
+            {
+                "LureName": "Jig",
+                "weight": 4
+            },
+            {
+                "LureName": "Soft_Plastic_Bait",
+                "weight": 9
+            }
+        ],
+        "name": "YellowPerch",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 2
+    },
+    {
+        "description": "Panfish, including species like Bluegill and Sunfish, are small, round-bodied fish commonly found in ponds, lakes, and rivers. They are brightly colored, easy to catch, and feed on insects and small invertebrates, making them ideal for beginners and family fishing trips.",
+        "fishFacts": [
+            "Panfish are named for their perfect 'pan-sized' bodies, ideal for frying up a fresh catch.",
+            "They are incredibly curious and will often bite at just about anything, making them easy to catch.",
+            "Panfish often gather in shallow water, making them a favorite for dock and shore anglers."
+        ],
+        "imagePath": "://image/Panfish.png",
+        "lureToWeight": [
+            {
+                "LureName": "Jig",
+                "weight": 14
+            },
+            {
+                "LureName": "Soft_Plastic_Bait",
+                "weight": 13
+            }
+        ],
+        "name": "Panfish",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "Bluegill are small, round-bodied freshwater fish with a distinct dark spot on their dorsal fin and blue hues on their gill covers. They inhabit warm, weedy waters like ponds and lakes, feeding on insects, larvae, and small aquatic creatures. Easy to catch and abundant, Bluegill are a favorite for beginner anglers and a staple of recreational fishing.",
+        "fishFacts": [
+            "Bluegill have small mouths but big appetites, making them eager biters.",
+            "They are known for their distinctive 'sideways fight' when hooked, giving anglers a fun challenge.",
+            "Bluegill are highly territorial, especially during the spawning season, when males guard their nests."
+        ],
+        "imagePath": "://image/Bluegill.png",
+        "lureToWeight": [
+            {
+                "LureName": "Jig",
+                "weight": 19
+            },
+            {
+                "LureName": "Soft_Plastic_Bait",
+                "weight": 20
+            }
+        ],
+        "name": "Bluegill",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "A schooling fish found in rivers and lakes, White Bass have silver bodies with horizontal stripes. They are strong fighters and often feed in frenzies.",
+        "fishFacts": [
+            "White Bass are known to gather in large schools, creating feeding frenzies called 'boils'.",
+            "They often chase baitfish right to the surface, causing quite a commotion.",
+            "White Bass can migrate upstream in the spring, making them accessible in many rivers."
+        ],
+        "imagePath": "://image/WhiteBass.png",
+        "lureToWeight": [
+            {
+                "LureName": "Jig",
+                "weight": 5
+            },
+            {
+                "LureName": "Soft_Plastic_Bait",
+                "weight": 17
+            }
+        ],
+        "name": "WhiteBass",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "A migratory fish with bold horizontal stripes running the length of their silvery bodies. Found in both freshwater and saltwater, they are known for their size and power.",
+        "fishFacts": [
+            "Striped Bass can live in both freshwater and saltwater, making them an adaptable species.",
+            "They are known for their powerful runs when hooked, making them a prized catch for sport fishermen.",
+            "Stripers often school with others of similar size, creating large groups during feeding times."
+        ],
+        "imagePath": "://image/Stripers.png",
+        "lureToWeight": [
+            {
+                "LureName": "Blade_Bait",
+                "weight": 18
+            },
+            {
+                "LureName": "Chatterbait",
+                "weight": 4
+            },
+            {
+                "LureName": "Jig",
+                "weight": 8
+            },
+            {
+                "LureName": "Soft_Plastic_Bait",
+                "weight": 18
+            },
+            {
+                "LureName": "Spoon",
+                "weight": 19
+            },
+            {
+                "LureName": "Swimbait",
+                "weight": 8
+            }
+        ],
+        "name": "Stripers",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "Salmon are migratory fish known for their incredible journey upstream to spawn. Found in both freshwater and saltwater, they are prized for their size, strength, and delicious flavor. They exhibit silvery bodies that often change color during spawning.",
+        "fishFacts": [
+            "Salmon can jump over 6 feet out of the water to overcome obstacles on their spawning run.",
+            "They use an incredible sense of smell to navigate back to the river they were born in.",
+            "During spawning, some salmon change color dramatically, from silver to bright red or pink."
+        ],
+        "imagePath": "://image/Salmon.png",
+        "lureToWeight": [
+            {
+                "LureName": "Crankbait",
+                "weight": 13
+            },
+            {
+                "LureName": "Fly",
+                "weight": 14
+            },
+            {
+                "LureName": "Inline_Spinner",
+                "weight": 10
+            },
+            {
+                "LureName": "Spoon",
+                "weight": 9
+            }
+        ],
+        "name": "Salmon",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "A sea-run form of Rainbow Trout, Steelhead migrate to the ocean but return to freshwater rivers to spawn. They are larger than their freshwater relatives and prized for their strength and stamina.",
+        "fishFacts": [
+            "Steelhead can spawn multiple times throughout their lives, unlike salmon, which usually spawn only once.",
+            "They are known for their acrobatic jumps when hooked, often leaping several feet out of the water.",
+            "Steelhead change color depending on whether they are in saltwater or freshwater."
+        ],
+        "imagePath": "://image/Steelhead.png",
+        "lureToWeight": [
+            {
+                "LureName": "Crankbait",
+                "weight": 19
+            },
+            {
+                "LureName": "Fly",
+                "weight": 7
+            },
+            {
+                "LureName": "Spoon",
+                "weight": 11
+            }
+        ],
+        "name": "Steelhead",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 1
+    },
+    {
+        "description": "A landlocked form of Sockeye Salmon, Kokanee are smaller and remain in freshwater. They turn bright red with green heads during spawning.",
+        "fishFacts": [
+            "Kokanee are filter feeders, primarily eating plankton, which is rare among salmon.",
+            "During spawning, Kokanee develop a humpback and their colors change to bright red and green.",
+            "They are known for their acrobatic battles when hooked, often jumping out of the water multiple times."
+        ],
+        "imagePath": "://image/Kokanee.png",
+        "lureToWeight": [
+            {
+                "LureName": "Spoon",
+                "weight": 5
+            }
+        ],
+        "name": "Kokanee",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 2
+    },
+    {
+        "description": "A larger relative of the Northern Pike, Muskies are often called \"the fish of 10,000 casts\" due to their elusive nature. They inhabit weedy or rocky waters and are apex predators.",
+        "fishFacts": [
+            "Muskies are solitary hunters and are known for their aggressive strikes, often attacking prey larger than their own head.",
+            "They can grow to impressive sizes, with some individuals reaching over 50 inches in length.",
+            "Muskies often lie in ambush near weeds or logs, waiting for the perfect moment to strike."
+        ],
+        "imagePath": "://image/Makinaw.png",
+        "lureToWeight": [
+            {
+                "LureName": "Fly",
+                "weight": 16
+            }
+        ],
+        "name": "Makinaw",
+        "posX": 0,
+        "posY": 0,
+        "speed": 0,
+        "swimmingDepth": 2
+    }
+],
+
+
+    "hookedFish": {
+        "description": "",
+        "fishFacts": [
+        ],
+        "imagePath": "",
+        "lureToWeight": [
+        ],
+        "name": "",
+        "posX": 0,
+        "posY": -1351840779,
+        "speed": 32766,
+        "swimmingDepth": 1
+    },
+    "lures": [
+        {
+            "density": 0.800000011920929,
+            "description": "Dense and streamlined, slightly sticky when bouncing off obstacles.",
+            "friction": 0.5,
+            "imagePath": "://image/Crankbait.png",
+            "lureDepth": 1,
+            "name": "Crankbait",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0.20000000298023224
+        },
+        {
+            "density": 1.2000000476837158,
+            "description": "Heavy, sinks quickly, with minimal bounce; designed for bottom fishing.",
+            "friction": 0.6000000238418579,
+            "imagePath": "://image/Jig.png",
+            "lureDepth": 2,
+            "name": "Jig",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0.10000000149011612
+        },
+        {
+            "density": 0.699999988079071,
+            "description": "Light and aerodynamic; slightly bouncy when colliding with objects.",
+            "friction": 0.4000000059604645,
+            "imagePath": "://image/Inline_Spinner.png",
+            "lureDepth": 1,
+            "name": "Inline_Spinner",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0.30000001192092896
+        },
+        {
+            "density": 0.8999999761581421,
+            "description": "Medium density; glides with moderate resistance; minimal bounce.",
+            "friction": 0.5,
+            "imagePath": "://image/Spoon.png",
+            "lureDepth": 1,
+            "name": "Spoon",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0.20000000298023224
+        },
+        {
+            "density": 0.4000000059604645,
+            "description": "Very light; floats on water, doesn't bounce much.",
+            "friction": 0.30000001192092896,
+            "imagePath": "://image/Topwaters.png",
+            "lureDepth": 0,
+            "name": "Topwaters",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0.10000000149011612
+        },
+        {
+            "density": 0.6000000238418579,
+            "description": "Slightly heavier, imitates fish movement; minimal bounce.",
+            "friction": 0.4000000059604645,
+            "imagePath": "://image/Swimbait.png",
+            "lureDepth": 1,
+            "name": "Swimbait",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0.20000000298023224
+        },
+        {
+            "density": 0.5,
+            "description": "Flexible and sticky; clings to surfaces, no bounce.",
+            "friction": 0.699999988079071,
+            "imagePath": "://image/Soft_Plastic_Bait.png",
+            "lureDepth": 2,
+            "name": "Soft_Plastic_Bait",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0
+        },
+        {
+            "density": 1,
+            "description": "Heavy metal lure, slides slightly on contact but minimal bouncing.",
+            "friction": 0.5,
+            "imagePath": "://image/Blade_Bait.png",
+            "lureDepth": 2,
+            "name": "Blade_Bait",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0.10000000149011612
+        },
+        {
+            "density": 0.800000011920929,
+            "description": "Medium weight; spins freely; can glide with moderate friction.",
+            "friction": 0.5,
+            "imagePath": "://image/Spinnerbait.png",
+            "lureDepth": 1,
+            "name": "Spinnerbait",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0.30000001192092896
+        },
+        {
+            "density": 0.8999999761581421,
+            "description": "Vibrates and sinks steadily; moderate friction and low bounce.",
+            "friction": 0.6000000238418579,
+            "imagePath": "://image/Chatterbait.png",
+            "lureDepth": 1,
+            "name": "Chatterbait",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0.20000000298023224
+        },
+        {
+            "density": 0.20000000298023224,
+            "description": "Extremely light and almost frictionless; floats easily without bouncing.",
+            "friction": 0.10000000149011612,
+            "imagePath": "://image/Fly.png",
+            "lureDepth": 0,
+            "name": "Fly",
+            "posX": 380,
+            "posY": 500,
+            "restitution": 0
+        }
+    ],
+    "userCurrentMoney": 100,
+    "userFishBucket": {
+    },
+    "userLureBox": [
+    ],
+    "waterLine": 15
+}

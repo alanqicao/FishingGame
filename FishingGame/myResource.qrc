@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/Jig.png</file>
+        <file>image/Fly.png</file>
+        <file>image/Chatterbait.png</file>
+        <file>image/Spinnerbait.png</file>
+        <file>image/Blade_Bait.png</file>
+        <file>image/Soft_Plastic_Bait.png</file>
+        <file>image/Swimbait.png</file>
+        <file>image/Topwaters.png</file>
+        <file>image/Spoon.png</file>
+        <file>image/Inline_Spinner.png</file>
+        <file>image/Crankbait.png</file>
+        <file>image/Bass.png</file>
+        <file>image/Walleye.png</file>
+        <file>image/Trout.png</file>
+        <file>image/Salmon.png</file>
+        <file>image/Steelhead.png</file>
+        <file>image/NorthernPike.png</file>
+        <file>image/Muskie.png</file>
+        <file>image/Crappie.png</file>
+        <file>image/YellowPerch.png</file>
+        <file>image/WhiteBass.png</file>
+        <file>image/Stripers.png</file>
+        <file>image/Kokanee.png</file>
+        <file>image/Makinaw.png</file>
+        <file>image/testBoat.png</file>
+        <file>image/testFish.png</file>
+        <file>image/testLure.png</file>
+        <file>image/InitData.json</file>
+        <file>image/boat.png</file>
+        <file>image/Bluegill.png</file>
+        <file>image/Panfishpng.png</file>
+        <file>image/backGround.png</file>
+        <file>image/Panfish.png</file>
+    </qresource>
+</RCC>
